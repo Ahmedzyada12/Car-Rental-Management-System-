@@ -1,0 +1,29 @@
+<form action="{{ route('import-teachers') }}" method="POST" enctype="multipart/form-data">
+    @csrf
+    <input type="file" name="excel_file" required>
+    <button type="submit">Import</button>
+</form>
+// web.php
+Route::post('/import-teachers', 'TeacherController@import')->name('import-teachers');
+
+// TeacherController.php
+public function import(Request $request)
+{
+    $file = $request->file('excel_file');
+    $handle = fopen($file, 'r');
+
+   while (($row = fgetcsv($handle, 1000, ',')) !== false) {
+    // Assume each row has 'name', 'email', etc. as columns
+    Teacher::create([
+        'name' => $row[0],
+        'email' => $row[1],
+        // other fields...
+    ]);
+}
+
+
+    fclose($handle);
+    return back()->with('success', 'Teachers imported successfully.');
+}
+
+
