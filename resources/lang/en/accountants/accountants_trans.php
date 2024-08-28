@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'accountants list' => 'accountants list',
+    'List of accountants'    =>    'accountants list',
+    'Displays'    =>    'Displays',
+    'Entries'    =>       'Entries',
+    'seek'    =>    'seek',
+    'Name'     =>    'Name',
+    'Email'    =>    'Email',
+    'Address'    =>     'Address',
+    'Phone'     =>     'Phone',
+    'Actions'    =>    'Actions',
+    'New Record' => 'New Record',
+    'first Name'    =>    'first Name',
+    'last Name'    =>    'last Name',
+    'password'    =>    'password',
+    'password confirmation'    =>    'password confirmation',
+    'Submit' => 'Submit',
+    'Cancel' => 'Cancel',
+    'add'    =>    'add',
+    'Price'    =>    'Price',
+    'Action'    =>    'Action',
+    'New accountant'    =>       'New accountant',
+    'Add a accountant'    =>    'Add accountant',
+    'edit' => 'Edit',
+    'edit accountant' => 'Edit accountant',
+    'price' => 'Price',
+    'accountant name' => 'accountant name',
+
+];

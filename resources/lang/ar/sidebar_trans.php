@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'admins' => 'المسؤولين',
+    'admins list' => 'قائمة المسؤلين',
+    'add admin' => 'اضافة مسؤول',
+    'Dashboards' => 'لوحات التحكم',
+    "Dashboard" => "لوحة التحكم",
+    "managers" => "المديرين",
+    "Companies" => "الشركات",
+    "Drivers" => "السائقين",
+    "Customers" => "العملاء",
+    "Vehicles sections" => "اقسام السيارات",
+    "Reservations" => "الاوردرات",
+    "managers list" => "قائمة المديرين",
+    "Add managers" => "إضافة مديرين",
+    "Add company" => "اضافه شركة",
+    "Companies list" => "قائمة الشركات",
+    "Drivers list" => "قائمة السائقين",
+    "Add driver" => "إضافة سائق",
+    "Maintenance requests" => "طلبات الصيانة",
+    "Customers list" => "قائمة العملاء",
+    "Add Customer" => "إضافة عميل",
+    "Show sections" => "عرض الاقسام",
+    "Add section" => "اضافه قسم",
+    "Add car" => "اضافه سيارة",
+    "reservations list" => "قائمة الاوردرات",
+    "Add reservation" => "اضافه اوردر",
+    "Orders" => "الاوردرات",
+    "Orders list" => "قائمة الاوردرات",
+    "Add Order" => "اضافة اوردر",
+    "Maintenance" => "الصيانة",
+    "Add a repair request" => "اضافة طلب تصليح",
+    "Search" => "ابحث هنا",
+    "langs" => "اللغات",
+    'employees' => 'الموظفين',
+    'custodies' => 'العهدة',
+    'Discounts' => 'الخصومات',
+
+    // invoices
+    'invoices' => 'الفواتير',
+    'invoices list' => 'قاتمة الفواتير',
+    'add invoice' => 'اضافة فاتورة',
+
+    // dists
+    'dists' => 'الوجهات',
+    'dists list' => 'قائمة الوجهات',
+    'add dists' => 'اضافة وجهة',
+    'dists from' => 'من',
+    'dists to' => 'الى',
+    'dists price' => 'السعر',
+    'cars' => 'السيارات',
+
+    // accountant
+    'accountants' => 'المحاسبين',
+    'accountants list' => 'قائمة المحاسبين',
+    'Add accountant' => 'اضافة محاسب',
+    'view orders' => 'اظهار الاوردرات',
+
+];
